@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: pandlearn.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 十二月 01, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ COMPUTING SERVICES ^</pattern>
+<template>Office of Computing Services Carnegie Mellon University Australia 220 Victoria Square Adelaide South Australia 5000  Tel +61 8 8110 9999 (IT Office) Fax +61 8 8211 9444 Email itoffice@cmu.edu.au</template>
+</category>
+<category><pattern>^ ADDRESS ^</pattern>
+<template>Carnegie Mellon University Australia 220 Victoria Square Adelaide South Australia 5000</template>
+</category>
+<category><pattern>^ IT CONTACT ^</pattern>
+<template>Tel +61 8 8110 9999 (IT Office) Fax +61 8 8211 9444 Email itoffice@cmu.edu.au</template>
+</category>
+<category><pattern>^ IT HOTLINE ^</pattern>
+<template>Tel +61 8 8110 9999 (IT Office)</template>
+</category>
+<category><pattern>^ PURCHASING IT DEVICES ^</pattern>
+<template>Recommendations are here <br> https://at.cmu.edu.au/pages/view/1717/17-purchasing-it-devices</br></template>
+</category>
+<category><pattern>^ IT DEVICES RECOMMENDATION ^</pattern>
+<template>Recommendations are here <br> https://at.cmu.edu.au/pages/view/1717/17-purchasing-it-devices</br></template>
+</category>
+<category><pattern>^ COMPUTER RECOMMENDATION ^</pattern>
+<template>Recommendations are here https://at.cmu.edu.au/pages/view/1717/17-purchasing-it-devices<br/></template>
+</category>
+<category><pattern>^ UNIVERSITY POLICIES ^</pattern>
+<template>https://at.cmu.edu.au/pages/view/19928/16-computing-policies</template>
+</category>
+<category><pattern>^ POLICY ^</pattern>
+<template>https://www.cmu.edu/policies/information-technology/computing.html</template>
+</category>
+<category><pattern>^ POWER ^</pattern>
+<template>We have a 240Volt power outlets in Australia, different from America and Asia, so we ask all students affected to purchase an Australian power cord. This will ensure your safety and comply with Australian Building Regulation.  In Australia, we run a high voltage of 240V. Your laptop power block is able to automatically change to this voltage if it needs to. Updating your power cord - from the wall socket to your power block is strongly recommended. This enables you to use the wall point's appropriately without danger. The power cords cost from 6 to 8 dollars.  We highly recommend not use international wall plug adapters with a non-Australian power cord to your laptop power block.  You can buy at "Jaycar Electronics" here please see the GoogleMapLocation. For more information, please contact us at  ITOffice@cmu.edu.au</template>
+</category>
+<category><pattern>^ CHARGERS ^</pattern>
+<template>We have a 240Volt power outlets in Australia, different from America and Asia, so we ask all students affected to purchase an Australian power cord. This will ensure your safety and comply with Australian Building Regulation.  In Australia, we run a high voltage of 240V. Your laptop power block is able to automatically change to this voltage if it needs to. Updating your power cord - from the wall socket to your power block is strongly recommended. This enables you to use the wall point's appropriately without danger. The power cords cost from 6 to 8 dollars.  We highly recommend not use international wall plug adapters with a non-Australian power cord to your laptop power block.  You can buy at "Jaycar Electronics" here please see the GoogleMapLocation. For more information, please contact us at  ITOffice@cmu.edu.au</template>
+</category>
+<category><pattern>^ APPS ^</pattern>
+<template>There are 3 apps that can be useful on your phone.  1: "At CMU Australia" App for iOS and Android  image This app enables notifications from the university, including emergency announcements to your phone as well as blog access to at.cmu.edu.au groups. Use your at.cmu.edu.au username and password for this     2: "Panopto" App for iOS and Android  image  View video recorded classes. Address = coursecast.cmu.edu.au Account = CMUA, Username = AndrewID Password = local password     3: "Canvas" App for iOS and Android  image Access you CMU Canvas class materials Find your school or district = CMU AndrewID = AndrewID Password = Andrew Password</template>
+</category>
+<category><pattern># PROJECT ROOM #</pattern>
+<template>https://book.cmu.edu.au</template>
+</category>
+<category><pattern>^ PROJECT ROOM LIMIT ^</pattern>
+<template>1. 3 hours per day per room 2. regulated by students  3.When booking, please add a "Participant List" so that other students can see who is using the room</template>
+</category>
+<category><pattern>^ COURSE VIDEO ^</pattern>
+<template>http://coursecast.cmu.edu.au</template>
+</category>
+<category><pattern>^ CANVAS ^</pattern>
+<template>https://www.cmu.edu/canvas/</template>
+</category>
+<category><pattern>^ CANVAS START ^</pattern>
+<template>https://www.cmu.edu/canvas/Canvas%20QuickStart-version0717.pdf</template>
+</category>
+<category><pattern>^ LIBRARY ^</pattern>
+<template>https://library.cmu.edu</template>
+</category>
+<category><pattern>^ JOURNAL ^</pattern>
+<template>https://www.library.cmu.edu/find/journals</template>
+</category>
+<category><pattern>^ BOOK ^</pattern>
+<template>https://www.library.cmu.edu/find/books</template>
+</category>
+<category><pattern>^ DATABASE ^</pattern>
+<template>https://guides.library.cmu.edu/az.php</template>
+</category>
+<category><pattern>^ VPN ^</pattern>
+<template>Installing the Virtual Private Network (VPN) Download the Cisco AnyConnect software. Follow these directions to connect: Windows  / Mac  In the VPN window, type vpn.cmu.edu to access to "CMU Libraries" services type vpn.cmu.edu.au to access Student Resources FOLDER (\\student\resources ) from home. Click Connect. If accessing "CMU Libraries" Make sure you choose the Library Resources Group during the log-in process. If you don't choose Library Resources Group, you won't be able to access library materials, even though the VPN is connected. Once you've logged in either, open your preferred browser and go to the library website to find and access electronic resources. or connect to the Student Resources FOLDER (\\student\resources) To end your VPN session, click Disconnect in the application window. VPN (Virtual Private Network) To connect to CMU resources using a VPN connection, use the Cisco AnyConnect software. Please note that if you are connected to the vpn.cmu.edu "CMU Libraries" the all traffic on your PC is tunneled through as if your PC is located in the USA.     vpn.cmu.edu = CMU Pittsburgh Library - resources vpn.cmu.edu.au = CMU Australia File Server - resources</template>
+</category>
+<category><pattern>^ WHY VPN ^</pattern>
+<template>Connect to Additional "CMU Libraries" services from Pittsburgh (You may not need the additional services) https://www.library.cmu.edu/using/offcampus vpn.cmu.edu = CMU Pittsburgh Libraries  Connect to the  Student Resources FOLDER from home Path: \\student\resources (materials shared by faculties, team materials shared by other students).  You can also connect to you Personal-Drive-FOLDER if you have requested on from the ITOffice@cmu.edu.au Path: \\student\redir\YourAndrewID\documents\</template>
+</category>
+<category><pattern>^ CMUA DRIVE ^</pattern>
+<template>URL Path: \\student\redir\YourAndrewID\documents\  UserName: cmua\YourAndrewID Password: Your_WiFi_Password  This Personal-Drive-Folder is stored at the Australian CMU Campus, backed up using the university systems. It is available using the university Wifi or remotely accessible by VPN: vpn.cmu.edu.au using the Cisco-Anyconnect-Client</template>
+</category>
+<category><pattern>^ STORAGE ^</pattern>
+<template>1 Google Drive 2.Box 3.CMU-A Personal Drive more details see herehttps://at.cmu.edu.au/pages/view/19927/8-file-storage</template>
+</category>
+<category><pattern>^ ACCESS CARD ^</pattern>
+<template><srai>card</srai></template>
+</category>
+<category><pattern>^ CAMPUS CARD ^</pattern>
+<template><srai>card</srai></template>
+</category>
+<category><pattern>^ CARD ^</pattern>
+<template>Access cards are an electronic swipe card that allows you access to CMU-A campus and is also used to release photocopy/printing jobs.
+
+If you lose the card notify IT office immediately. It can take a day to issue a new card.
+
+It is the responsibility of each student to return their swipe card at the completion of their course and before leaving Australia. Cards can be returned to Reception.</template>
+</category>
+<category><pattern>^ FLOOR PLAN ^</pattern>
+<template>CMU campus occupies three levels of Torrens Building - ground floor, Level 1 and Level 2. The below diagrams will assist you in finding classrooms, staff and faculty offices.
+	<image>
+	    https://at.cmu.edu.au/mod/tinymce_pro/images/ground_flloor_diagram.PNG
+	</image>
+	<image>https://at.cmu.edu.au/mod/tinymce_pro/images/Level_1.PNG</image>
+	<image>https://at.cmu.edu.au/mod/tinymce_pro/images/Level_2_diagram.PNG</image></template>
+</category>
+<category><pattern>^ LIBRARY ASSISTANT ^</pattern>
+<template>Carnegie Mellon University Australia has a developing library of almost 700 text books and DVDs for use by faculty, staff and students. It is set up as a lending and reference library.  Role of Library Assistant:  Managing the library between 12-1pm and 5-6pm (Monday-Friday) Responsible for the security of the library area and accurate record keeping.  To apply for the Library Assistant position, please contact Nereshnee nshunmug@cmu.edu.au</template>
+</category>
+</aiml>

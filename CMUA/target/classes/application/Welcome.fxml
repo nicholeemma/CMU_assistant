@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WelcomeController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="191.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Robot.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="189.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="189.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="textBox" layoutX="248.0" layoutY="465.0" onAction="#type" prefHeight="30.0" prefWidth="252.0" promptText="Type your question here :)" />
+      <Button fx:id="clickToTalk" layoutX="193.0" layoutY="465.0" mnemonicParsing="false" onAction="#clickToTalk" prefHeight="30.0" prefWidth="53.0" text="Talk" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="193.0" AnchorPane.rightAnchor="254.0" AnchorPane.topAnchor="465.0" />
+      <VBox layoutX="192.0" layoutY="6.0" prefHeight="92.0" prefWidth="308.0" AnchorPane.bottomAnchor="408.0" AnchorPane.leftAnchor="192.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="7.0" prefWidth="308.0" text="Welcome to CMUA Portal !">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" prefHeight="17.0" prefWidth="298.0" text="I'm Andrew Carnegie !">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <TextArea fx:id="messages" layoutX="190.0" layoutY="72.0" prefHeight="392.0" prefWidth="308.0">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font></TextArea>
+      <ScrollBar layoutX="486.0" layoutY="72.0" orientation="VERTICAL" prefHeight="392.0" prefWidth="14.0" AnchorPane.rightAnchor="2.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,3 @@
+0,^ WI-FI ^,*,*,Wifi name is University.Your wifi username is YourAndrewID.Password is your admission id.YourAdmissionID is on your student ID card; it's an eight digitals number.,test1.aiml
+0,# WI-FI # USERNAME #,*,*,Your wifi username is Your Andrew ID.,test1.aiml
+0,# WI-FI # PASSWORD #,*,*,Your wifi password is Your Admission ID.YourAdmissionID is on your student ID card; it's an eight digitals number.,test1.aiml

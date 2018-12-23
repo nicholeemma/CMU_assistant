@@ -1,0 +1,6 @@
+0,*,*,*,I have no answer for that.,udccmu1.aiml
+0,HELLO #,*,*,hello#Comma I am <bot name="name"/>. nice to meet you,udccmu1.aiml
+0,^ NAME ^,*,*,hello#Comma I am <bot name="name"/>. What can I do for you?,udccmu1.aiml
+0,MY NAME IS *,*,*,Hi  I am <bot name="name"/>. nice to meet you,udccmu1.aiml
+0,^ WEB ^,*,*,<a download="w3logo" href="https://at.cmu.edu.au/file/download/20225"/>,udccmu1.aiml
+0,^ WEBSITE ^,*,*,<a download="w3logo" href="https://at.cmu.edu.au/file/download/20225"/>,udccmu1.aiml

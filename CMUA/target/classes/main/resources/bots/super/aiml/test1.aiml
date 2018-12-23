@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: test1.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 十二月 01, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ WI-FI ^</pattern>
+<template>Wifi name is University.Your wifi username is YourAndrewID.Password is your admission id.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+<category><pattern># WI-FI # USERNAME #</pattern>
+<template>Your wifi username is Your Andrew ID.</template>
+</category>
+<category><pattern># WI-FI # PASSWORD #</pattern>
+<template>Your wifi password is Your Admission ID.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+</aiml>

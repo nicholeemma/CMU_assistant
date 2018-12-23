@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: test2.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 十二月 01, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ WI DASH FI ^</pattern>
+<template>Wifi name is University.Your wifi username is YourAndrewID.Password is your admission id.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+<category><pattern>^ WIFI ^</pattern>
+<template>Wifi name is University.Your wifi username is YourAndrewID.Password is your admission id.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+<category><pattern># WI DASH FI # USERNAME #</pattern>
+<template>Your wifi username is Your Andrew ID.</template>
+</category>
+<category><pattern># WIFI # USERNAME #</pattern>
+<template>Your wifi username is Your Andrew ID.</template>
+</category>
+<category><pattern># WI DASH FI # PASSWORD #</pattern>
+<template>Your wifi password is Your Admission ID.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+<category><pattern># WIFI # PASSWORD #</pattern>
+<template>Your wifi password is Your Admission ID.YourAdmissionID is on your student ID card; it's an eight digitals number.</template>
+</category>
+<category><pattern>^ ANDREW ACCOUNT ^</pattern>
+<template>Your Andrew account is your gateway to the computing environment at Carnegie Mellon in the USA. With this you could give access to email, Learning Management Systems, and other resources.</template>
+</category>
+<category><pattern># CHANGE # ANDREW # PASSWORD #</pattern>
+<template>You would have received an email when enroled to set this password. If you have not done so already, please  
+        1.Go to <link>
+            <text>Andrew Account Password Set-up Page</text>
+            <url>https://identity.andrew.cmu.edu/credMgmtUserWebapp/open/incomingStudent/main.html%20</url>
+        </link>
+        2.Follow the Instructions, Be sure to set your security question so that account password recovery is possible</template>
+</category>
+<category><pattern># CMUA # ACCOUNT #</pattern>
+<template>your CMUA account enables access to the computing environment at Carnegie Mellon University in Australia. With this you could give access to Wifi, Printing, Class Video Recordings, room bookings and other resources.</template>
+</category>
+<category><pattern># CHANGE # CMUA # PASSWORD #</pattern>
+<template>This only can be done inside Torrens building "University".
+        1.While you are on the "University" Wifi - Go to 
+        <link>
+            <text>password changing page</text>
+            <url>http://ssp.australia.cmu.edu/</url>
+        </link>
+        2.Login = Your-Andrew-ID
+        3.Old password = Password from your ID Card
+        4.New password = Please set your password to that of the "Andrew Account" (the same as your @andrew.cmu.edu email)</template>
+</category>
+<category><pattern>^ ACCOUNT ^</pattern>
+<template>In CMUA, we have two accounts in total. One is andrew account, the other one is cmua account.</template>
+</category>
+<category><pattern># SAFE # COMPUTER #</pattern>
+<template>Oh, just a reminder. It's safer to 
+        <link>
+            <text>secure your computer</text>
+            <url>https://www.cmu.edu/computing/safe/secure-device</url>
+        </link>, and 
+        <link>
+            <text>secure your account and identity</text>
+            <url>https://www.cmu.edu/computing/safe</url>
+        </link> as soon as possible.</template>
+</category>
+<category><pattern>^ RESOURCE ^</pattern>
+<template>In our university, we have lots of shared resurces shared by faculties, students and club. They're quite useful! 
+        You could find these resources in the following path on your pc:\\student\resources. Oh and your user name is: cmua\YourAndrewID. Your password is: Your_WiFi_Password</template>
+</category>
+<category><pattern># EMAIL ADDRESS #</pattern>
+<template>Our email default address is @andrew.cmu.edu. If you want @cmu.edu email as your email address, Following these steps:
+        1.Visit https://emailtools.cmu.edu/addresses/cmunew put your Alias name into the address, it will then ask you to Finish, note that you are only able to do this once!.
+        2.Visit  https://emailtools.cmu.edu/addresses where you can confirm that your alias is your Preferred Email Address.</template>
+</category>
+<category><pattern># EMAIL #</pattern>
+<template>Our cmu email could be logged in through gmail website.</template>
+</category>
+<category><pattern>^ SOFTWARE ^</pattern>
+<template>Cmu provides lots of free software resources. Such as: Microsoft, Abode, Minitab, SAS and etc. You could log in and see more.
+        <link>
+            <text>click me</text>
+            <url>https://www.cmu.edu/computing/software/all/msimagine/</url>
+        </link></template>
+</category>
+<category><pattern>^ MICROSOFT ^</pattern>
+<template>Cmu web provides free microsoft software.</template>
+</category>
+<category><pattern># INSTALL # MICROSOFT #</pattern>
+<template>Please follow these instructions if you do not already have the latest a registered version of Microsoft Office installed. Please note that you will need to uninstall your old office before installing the new Office.
+        1. Visit <link>
+            <text>Microsoft Office Portal</text>
+            <url>http://portal.office.com/</url>
+            </link>
+        2.Sign in with your @andrew.cmu.edu email address, a Password is not required here.
+        3.The CMU Web Login page will appear, login with your AndewID and Password.
+        4.The Office 365 page will appear. If you are a Mac user click Install Office 2016 and go to step 5. For PC users visit 
+        <link>
+            <text>Office 365 Software</text>
+            <url>https://portal.office.com/OLS/MySoftware.aspx</url>
+            </link>, here you can choose which version of office to install. We recommend the 64bit version, it is faster and operates on large files, however the 32bit version accepts legacy 32bit plugins. Install English (United States) and 64bit version.
+            5.You are able to install Office apps on up to 5 devices, you can manage these installations here at Install Status. Microsoft will periodically require you to revalidate your license using single sign-on.
+Once you have completed your degree the Office 2016 license will expire after about 3 months. The installation should not take more than half an hour. If it is taking a long time then please visit the IT office.</template>
+</category>
+<category><pattern>^ ADOBE ^</pattern>
+<template>If you want to download adobe reader software, please download from 
+        <link>
+            <text>Adobe Reader</text>
+            <url>http://www.adobe.com/products/reader.html</url>
+        </link>.</template>
+</category>
+<category><pattern>^ MINITAB ^</pattern>
+<template>If you want to download minitab, please downlaod from 
+        <link>
+            <text>CMU Licensed Software List</text>
+            <url>http://www.cmu.edu/computing/software/all/index.html</url>
+        </link>.</template>
+</category>
+<category><pattern>^ ORACLE ^</pattern>
+<template>If you want to download Oracle, send a request to heinz-computing@andrew.cmu.edu and you will be sent an invitation to download it from a shared Box folder.</template>
+</category>
+<category><pattern>^ SHE IS HAAHA ^</pattern>
+<template>she is hahah.</template>
+</category>
+<category><pattern>^ SAS ^</pattern>
+<template>If you want to download SAS, please downlaod from 
+        <link>
+            <text>CMU Licensed Software List</text>
+            <url>http://www.cmu.edu/computing/software/all/sas/index.html</url>
+        </link>.</template>
+</category>
+<category><pattern>^ VMWARE ^</pattern>
+<template>If you want to download VMWare, please download from 
+        <link>
+            <text>VMAP Webstore</text>
+            <url>http://www.cmu.edu/computing/software/all/vmware/index.html</url>
+        </link>. Log in with your Andrewusername and password.</template>
+</category>
+<category><pattern>^ VIRTUAL ^ LAB ^</pattern>
+<template>The Heinz Virtual Lab is a remote access service for access to software. You can access the Virtual Lab from any location on or off campus.
+        <link>
+            <text>Virtual Labs</text>
+            <url>https://www.heinz.cmu.edu/current-students/computing-services/virtual-labs</url>
+        </link></template>
+</category>
+<category><pattern>^ PRINT ^</pattern>
+<template>At the start of each semester each student is allocated $40 credit. This enables printing or photocopying of up to 400 pages in Black/White or 200 pages in Colour or a combination of both. 
+        Photocopying and printing above this allowance will incur charges to be invoiced at the end of the semester. You could check your print balance if you need.
+        before using printer, you should set up your laptop for printer.</template>
+</category>
+<category><pattern>^ PHOTOCOPY ^</pattern>
+<template>At the start of each semester each student is allocated $40 credit. This enables printing or photocopying of up to 400 pages in Black/White or 200 pages in Colour or a combination of both. 
+        Photocopying and printing above this allowance will incur charges to be invoiced at the end of the semester. You could check your print balance if you need.
+        before using printer, you should set up your laptop for printer.</template>
+</category>
+<category><pattern># PRINT # BALANCE #</pattern>
+<template>Using your Laptop you can check your print-balance  
+        <link>
+            <text>here</text>
+            <url>http://print.cmu.edu.au</url>.
+        </link> Using your Phone  you can check your print-balance 
+        <link>
+            <text>here</text>
+            <url>https://print.cmu.edu.au/client</url>
+        </link></template>
+</category>
+<category><pattern># CONNECT # PRINT #</pattern>
+<template>Before you are able to print you need to be connected to the correct wireless network "University" SSID and then connected to the server "\\student\resources" network drive correctly. You may already have done this - if you have mapped "\\student\resources" to the S: drive please just view the S: drive before you print, (this will confirm that your laptop is connected to the print server).
+        First, connect to the network server "\\student\resources". Path: \\student\resources. UserName: cmua\YourAndrewID. Password: Your_WiFi_Password. This connects and authenticates you to the printer service.
+        Then Connect Your Printer to path \\student. Now double click Printer. This will install a printer to your Windows PC called. "Virtual_Queue on Student</template>
+</category>
+<category><pattern># PRINT # CONNECT #</pattern>
+<template>Before you are able to print you need to be connected to the correct wireless network "University" SSID and then connected to the server "\\student\resources" network drive correctly. You may already have done this - if you have mapped "\\student\resources" to the S: drive please just view the S: drive before you print, (this will confirm that your laptop is connected to the print server).
+        First, connect to the network server "\\student\resources". Path: \\student\resources. UserName: cmua\YourAndrewID. Password: Your_WiFi_Password. This connects and authenticates you to the printer service.
+        Then Connect Your Printer to path \\student. Now double click Printer. This will install a printer to your Windows PC called. "Virtual_Queue on Student</template>
+</category>
+<category><pattern># SET # PRINTER #</pattern>
+<template>Before you are able to print you need to be connected to the correct wireless network "University" SSID and then connected to the server "\\student\resources" network drive correctly. You may already have done this - if you have mapped "\\student\resources" to the S: drive please just view the S: drive before you print, (this will confirm that your laptop is connected to the print server).
+        First, connect to the network server "\\student\resources". Path: \\student\resources. UserName: cmua\YourAndrewID. Password: Your_WiFi_Password. This connects and authenticates you to the printer service.
+        Then Connect Your Printer to path \\student. Now double click Printer. This will install a printer to your Windows PC called. "Virtual_Queue on Student</template>
+</category>
+<category><pattern># WHERE # PRINT #</pattern>
+<template>There are two photocopies, one located on the ground floor by the library and the other on the first floor inside the faculty office.</template>
+</category>
+<category><pattern># USE # PRINT #</pattern>
+<template>Log in using your Student Door Access card. You will need to enter your CMUA username and password for the first time to associate your card.</template>
+</category>
+<category><pattern># PRINTER #</pattern>
+<template>Log in using your Student Door Access card. You will need to enter your CMUA username and password for the first time to associate your card.</template>
+</category>
+<category><pattern># HOW # PHOTOCOPY #</pattern>
+<template>1. Press the Home button on the left beside the LCD screen and the screen will now change to the scanning options.
+        2. Press the Scanner button in the screen
+        3.Press the Manual Entry button in the middle of the screen
+        4. Enter your email address and click ok.
+        5. Press the button Sender Name.
+        6.Select Photocopier and press ok.
+        7.Press the button Send File Type/Name on the left handside of the screen.
+        8. Select item and type to either single page PDF or multi-page PDF (depending on what you are coping) and press ok.
+        9.Place document on photocopier scanning tray or if multipage document place in photocopier feeding tray.
+        10. Hit the blue Start button on machine.
+        11. If you have a number of pages for the scanning tray - put the next page in and hit go again. 
+        12. Once you are finished press the # key on the number pad - this will finish the scan off and send it to your email.
+        13. If finished press clear and select photocopier.</template>
+</category>
+<category><pattern>^ ACCOMMODATION ^</pattern>
+<template>If you are looking for short_term accommodation. You could contact Nereshnee Shunmugam for assistance. And here are some possible options:
+        <link>
+            <text>Backpack Oz</text>
+            <url>http://www.backpackoz.com.au/</url>
+        </link>, 
+        <link>
+            <text>Adelaide Travellers Inn Backpackers</text>
+            <url>http://www.adelaidebackpackers.com.au/</url>
+        </link>, 
+        <link>
+            <text>Royal Adelaide Hospital</text>
+            <url>http://www.rah.sa.gov.au/aboutrah/accom.php</url>
+        </link>, 
+        <link>
+            <text>Quest on King William</text>
+            <url>http://www.questonkingwilliam.com.au/</url>
+        </link>. If you are looking for long term accommodation. You could chose Student Hostels or Private Rental Accommodation. Student Hostels such as:
+        <link>
+            <text>Urbanest Student Accommodation</text>
+            <url>http://www.urbanest.com.au/</url>
+        </link>, 
+        <link>
+            <text>Unihouse</text>
+            <url>http://www.unihouse.com.au/</url>
+        </link>, 
+        <link>
+            <text>UV Apartments</text>
+            <url>http://www.prdstudentservices.com.au/uv/location.asp</url>
+        </link> and so on. 
+        For Private Rental Accommodation, you could go through real estate agents website, such as:
+        <link>
+            <text>City Realty</text>
+            <url>http://www.cityrealty.com.au/</url>
+        </link>, 
+        <link>
+            <text>Brock Harcourts </text>
+            <url>http://www.brockharcourts.com.au/</url>
+        </link>, 
+        <link>
+            <text>Realestate.com.au</text>
+            <url>http://www.realestate.com.au/</url>
+        </link>, 
+        <link>
+            <text>Domain.com.au</text>
+            <url>http://www.domain.com.au/</url>
+        </link> and so on.</template>
+</category>
+<category><pattern>^ UTILITIES ^</pattern>
+<template>You need to ring utilities companies and arrange new connections a few days before moving to your new home (unless other arrangements are in place with your landlord - ask if unsure).</template>
+</category>
+<category><pattern>^ TELEPHONE ^</pattern>
+<template>There are two carriers of home telephone services in Australia - Telstra and Optus. Their numbers are: Telstra (for connection and service) - Tel: 132 200.Optus (for carrier service) - Tel: 133 937</template>
+</category>
+<category><pattern>^ ELECTRICITY ^</pattern>
+<template>There are five providers in the domestic market:
+            Origin Energy Retail - offers gas and electricity - default* provider for gas. Tel: 13 2114
+            AGL SA - offers gas and electricity - default* provider for electricity. Tel: 13 1245
+            TXU - offers gas and electricity. Tel: 13 3466
+            Energy Australia - offers gas and electricity. Tel: 13 8808
+            Power Direct - -offers electricity only. Tel: 8357 7511</template>
+</category>
+<category><pattern>^ GAS ^</pattern>
+<template>There are four providers in the domestic market:
+            Origin Energy Retail - offers gas and electricity - default* provider for gas. Tel: 13 2114
+            AGL SA - offers gas and electricity - default* provider for electricity. Tel: 13 1245
+            TXU - offers gas and electricity. Tel: 13 3466
+            Energy Australia - offers gas and electricity. Tel: 13 8808</template>
+</category>
+<category><pattern>^ WATER ^</pattern>
+<template>In the absence of an agreement, the Residential Tenancies Act 1995 sets out responsibilities. If no agreement exists the landlord is responsible for all charges for the first 136 kilolitres of water per year, including the quarterly water supply charge. The tenant is responsible for the charges relating to water usage over the first 136 kilolitres.
+            It is important that the water meter at your accommodation is read at the beginning and end of the tenancy agreement if you are going to be responsible for any or all of the water charges.</template>
+</category>
+<category><pattern>^ OSHC ^</pattern>
+<template>CMUA can arrange visa-length OSHC with OSHC Worldcare. Payment of the health cover premium will be applied to your first semester invoice. The University will inform DIAC that OSHC is in place for you and your family members and will indicate this on your Confirmation of Enrolment (COE).</template>
+</category>
+<category><pattern>^ VISA ^</pattern>
+<template>Your visa is subject to a number of conditions, please read the complete overview of all mandatory and discretionary conditions 
+            <link>
+                <text>here</text>
+                <url>http://www.immi.gov.au/students/visa-conditions-students.htm</url>
+            </link></template>
+</category>
+<category><pattern>^ COUNSEL ^</pattern>
+<template>CMU provides free counselling services every Monday (excluding Public Holidays). You could discuss any issues or concerns you may have during your study period.</template>
+</category>
+<category><pattern>^ ADELAIDE ^</pattern>
+<template><image>https://www.cityofadelaide.com.au/explore-the-city/visit-adelaide/maps-trails-and-guides/city-maps</image></template>
+</category>
+<category><pattern># COST #</pattern>
+<template>The weekly cost of living in adelaide could be $275 - $465. This includes rent, food, transport, telephone, bill.</template>
+</category>
+<category><pattern>^ FAMILY ^</pattern>
+<template>The cost of supporting a family in Australia is very high and it is important to ensure that you have sufficient funds to support them financially. Standard costs can include:
+            airfares to and from Australia
+            additional accommodation costs if you need a bigger place
+            extra costs for food, clothing and other necessities
+            schooling and childcare costs</template>
+</category>
+</aiml>

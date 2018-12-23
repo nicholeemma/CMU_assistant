@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: udccmu1.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 十二月 01, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>*</pattern>
+<template>I have no answer for that.</template>
+</category>
+<category><pattern>HELLO #</pattern>
+<template>hello, I am <bot name="name"/>. nice to meet you</template>
+</category>
+<category><pattern>^ NAME ^</pattern>
+<template>hello, I am <bot name="name"/>. What can I do for you?</template>
+</category>
+<category><pattern>MY NAME IS *</pattern>
+<template>Hi  I am <bot name="name"/>. nice to meet you</template>
+</category>
+<category><pattern>^ WEB ^</pattern>
+<template><a download="w3logo" href="https://at.cmu.edu.au/file/download/20225"/></template>
+</category>
+<category><pattern>^ WEBSITE ^</pattern>
+<template><a download="w3logo" href="https://at.cmu.edu.au/file/download/20225"/></template>
+</category>
+</aiml>
